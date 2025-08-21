@@ -37,6 +37,6 @@ app.use((req, res) => {
 });
 
 //Start the app
-app.listen(3003, () => {
-  console.log("App running on http://localhost:3003");
+app.listen(3306, () => {
+  console.log("App running on http://localhost:3306");
 });
